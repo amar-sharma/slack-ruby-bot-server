@@ -92,9 +92,8 @@ module SlackRubyBotServer
                 bot_user_id: bot_user_id
               )
 
-              raise "Team #{team.name} is already registered." if team.active?
-
               team.activate!(token)
+              
             else
               team = Team.create!(
                 token: token,
