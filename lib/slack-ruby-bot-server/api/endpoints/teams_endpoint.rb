@@ -91,9 +91,6 @@ module SlackRubyBotServer
                 activated_user_access_token: access_token,
                 bot_user_id: bot_user_id
               )
-
-              team.activate!(token)
-              
             else
               team = Team.create!(
                 token: token,
