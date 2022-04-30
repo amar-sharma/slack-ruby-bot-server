@@ -2,8 +2,10 @@ Slack Ruby Bot Server
 =====================
 
 [![Gem Version](https://badge.fury.io/rb/slack-ruby-bot-server.svg)](https://badge.fury.io/rb/slack-ruby-bot-server)
-[![Build Status](https://travis-ci.org/slack-ruby/slack-ruby-bot-server.svg?branch=master)](https://travis-ci.org/slack-ruby/slack-ruby-bot-server)
 [![Code Climate](https://codeclimate.com/github/slack-ruby/slack-ruby-bot-server.svg)](https://codeclimate.com/github/slack-ruby/slack-ruby-bot-server)
+[![mongodb](https://github.com/slack-ruby/slack-ruby-bot-server/actions/workflows/test-mongodb.yml/badge.svg)](https://github.com/slack-ruby/slack-ruby-bot-server/actions/workflows/test-mongodb.yml)
+[![postgresql](https://github.com/slack-ruby/slack-ruby-bot-server/actions/workflows/test-postgresql.yml/badge.svg)](https://github.com/slack-ruby/slack-ruby-bot-server/actions/workflows/test-postgresql.yml)
+[![rubocop](https://github.com/slack-ruby/slack-ruby-bot-server/actions/workflows/rubocop.yml/badge.svg)](https://github.com/slack-ruby/slack-ruby-bot-server/actions/workflows/rubocop.yml)
 
 Build a complete Slack bot service with Slack button integration, in Ruby.
 
@@ -38,7 +40,7 @@ A library that contains a web server and a RESTful [Grape](http://github.com/rub
 
 ## Stable Release
 
-You're reading the documentation for the **next** release of slack-ruby-bot-server. Please see the documentation for the [last stable release, v1.2.0](https://github.com/slack-ruby/slack-ruby-bot-server/blob/v1.2.0/README.md) unless you're integrating with HEAD. See [UPGRADING](UPGRADING.md) when upgrading from an older version. See [MIGRATING](MIGRATING.md) for help with migrating Legacy Slack Apps to Granular Scopes.
+You're reading the documentation for the **next** release of slack-ruby-bot-server. Please see the documentation for the [last stable release, v1.2.1](https://github.com/slack-ruby/slack-ruby-bot-server/blob/v1.2.1/README.md) unless you're integrating with HEAD. See [UPGRADING](UPGRADING.md) when upgrading from an older version. See [MIGRATING](MIGRATING.md) for help with migrating Legacy Slack Apps to Granular Scopes.
 
 ## Make Your Own
 
